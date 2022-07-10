@@ -1,0 +1,18 @@
+{
+  "name": "basic_object_app",
+  "version": "0.0.1",
+  "description": "authentication application for nodejs",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/helpers/authentication"
+  },
+  "author": "Lirrumscode",
+  "license": "MIT",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.19",
+    "store": "^2.0.12"
+  }
+}
